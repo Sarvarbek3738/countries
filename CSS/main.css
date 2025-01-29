@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 24px 0px;
+
+}
+
+.moon {
+    display: block;
+}
+
+.quyosh {
+    display: none;
+}
+
+.men {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0px;
+}
+
+.hero {
+    background-color: #FAFAFA;
+    padding-top: 80px;
+    padding-bottom:250px;
+}
+
+.poick input {
+    padding: 18px 0px;
+    padding-right: 270px;
+    padding-left: 24px;
+    border: none;
+    outline: none;
+}
+
+.poick {
+    background-color: white;
+    padding-left: 32px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cotigoriya {
+    border: none;
+    outline: none;
+}
+
+#country {
+    padding: 18px;
+    /* width: 200px; */
+    border: none;
+    outline: none;
+}
+
+.box1-1.hidden {
+    display: none;
+}
+
+.box1-1 {
+    width: 264px;
+    /* height: 400px; */
+
+}
+
+.imgs {
+    height: 160px;
+}
+
+.imgs img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.text {
+    padding: 0px 24px;
+    padding-top: 24px;
+    padding-bottom: 46px;
+    background-color: white;
+    border: none;
+}
+
+.text h4 {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.text p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 8px;
+
+}
+
+.text span {
+    color: gray;
+}
+
+.box1-1 {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+select {
+    background-color: white;
+    /* Orqa fondagi rangni belgilang */
+    color: black;
+    /* Matn rangini belgilang */
+    border: none;
+    /* Chegarani olib tashlash */
+    padding: 10px;
+    /* Ichki bo'shliq */
+    border-radius: 5px;
+    /* Burchaklarni yumaloqlash */
+    /* appearance: none; */
+    /* Brauzerning default stili olib tashlash uchun */
+    /* -webkit-appearance: none; */
+    /* Safari uchun */
+    /* -moz-appearance: none; */
+    /* Firefox uchun */
+}
+
+.madal.active {
+    display: block;
+}
+
+.madal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 300px;
+    z-index: 99999;
+
+}
+
+.madal .modalImg img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.heroModal.Hello{
+    display: block;
+}
+.heroModal {
+    display: none;
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid #EFEFEF;
+    padding-top: 80px;
+
+}
+.hero.hello{
+    display: none;
+}
+
+.hero .container {
+    display: block;
+}
+
+.Exit {
+    margin-top: 80px;
+    background-color: #F4F4F4;
+    width: 100px;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.blockImg{
+    height: 401px;
+    width: 550px;
+}
+.blockImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.blockBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.left h3 {
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 23px;
+}
+
+.left p {
+    line-height: 32px;
+}
+
+.blockText {
+    display: flex;
+    /* align-items: center; */
+    gap: 141px;
+}
+.blockText span{
+    color: #737B81;
+}
+
+.right p {
+    line-height: 32px;
+
+}
+.right{
+    padding-top: 60px;
+}
+.left{
+    position: relative;
+    padding-bottom: 68px;
+}
+.Countries{
+    position: fixed;
+    padding-top: 68px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.Countries button{
+    box-shadow: 0px 0px 4px 1px #0000001B;
+    border: none;
+    background-color: white;
+    padding: 5px 27px;
+    margin-right: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/* ========================================================= */
+body.temp .moon {
+    display: none;
+}
+
+body.temp .quyosh {
+    display: block;
+}
+
+body.temp nav {
+    background-color: #2B3844;
+    color: white;
+}
+
+body.temp .hero {
+    background-color: #202C36;
+}
+
+body.temp .box1-1 {
+    background-color: #2B3844;
+}
+
+body.temp .text {
+    background-color: #2B3844;
+}
+
+body.temp .text {
+    color: white;
+}
+
+body.temp .text p {
+    color: white;
+}
+
+body.temp .poick input {
+    background-color: #2B3844;
+    color: white;
+}
+
+body.temp .poick {
+    background-color: #2B3844;
+    color: white;
+}
+
+.body.temp .cotigoriya select {
+    background-color: #2B3844;
+}
+
+body.temp select {
+    background-color: #2B3844;
+    color: white;
+    border: none;
+    outline: none;
+}
+body.temp .heroModal{
+    background-color: #202C36;
+}
+body.temp .heroModal{
+    border: none;
+}
+body.temp .Exit{
+    background-color: #2B3844;
+    color: white;
+}
+body.temp .blockImg{
+    background-color: #202C36;
+}
+body.temp .blockText {
+    color: white;
+}
+body.temp .blockText span{
+    color: rgb(166, 166, 166);
+}
+body.temp .Countries button{
+    background-color: #2B3844;
+    color: white;
+}
+
+
+
+
+@media(max-width:480px) {
+    nav {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .hero {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .men {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .poick {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .poick input {
+        width: 100%;
+        padding-right: 150px;
+    }
+
+    .box1-1 {
+        margin: 0 auto;
+        /* text-align: center; */
+    }
+}
